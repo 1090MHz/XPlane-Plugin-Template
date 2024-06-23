@@ -23,7 +23,7 @@ This repository contains an example X-Plane plugin demonstrating the implementat
 
 To use this plugin:
 
-1. Clone the repository: `git clone https://github.com/1090MHz/xplane-plugin`
+1. Clone the repository: `git clone https://github.com/1090MHz/Xplane-Plugin`
 2. Open the project in your preferred IDE or text editor.
 3. Build the project using the X-Plane SDK and integrate with your X-Plane installation.
 
