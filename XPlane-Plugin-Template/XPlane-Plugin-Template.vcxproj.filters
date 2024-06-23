@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -13,5 +13,108 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\SDK">
+      <UniqueIdentifier>{a486d6fe-2c47-4a3b-90d1-6d8eb720239d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\CHeaders">
+      <UniqueIdentifier>{3633c5f3-c18a-4802-9ad8-8fa1ad35f3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\CHeaders\Widgets">
+      <UniqueIdentifier>{a4669255-18d8-4027-ba61-58efffa7c118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\CHeaders\Wrappers">
+      <UniqueIdentifier>{f28144f1-88b6-4f32-94a3-9f8320712bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SDK\CHeaders\XPLM">
+      <UniqueIdentifier>{5df1bd03-4289-4f1a-8b2a-c8cd70c2de72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XPlane-Plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMCamera.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMDataAccess.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMDefs.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMDisplay.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMGraphics.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMInstance.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMMap.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMMenus.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMNavigation.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMPlanes.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMPlugin.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMProcessing.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMScenery.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMSound.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMUtilities.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\XPLM\XPLMWeather.h">
+      <Filter>Header Files\SDK\CHeaders\XPLM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Wrappers\XPCBroadcaster.h">
+      <Filter>Header Files\SDK\CHeaders\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Wrappers\XPCDisplay.h">
+      <Filter>Header Files\SDK\CHeaders\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Wrappers\XPCListener.h">
+      <Filter>Header Files\SDK\CHeaders\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Wrappers\XPCProcessing.h">
+      <Filter>Header Files\SDK\CHeaders\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Wrappers\XPCWidget.h">
+      <Filter>Header Files\SDK\CHeaders\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Wrappers\XPCWidgetAttachments.h">
+      <Filter>Header Files\SDK\CHeaders\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Widgets\XPStandardWidgets.h">
+      <Filter>Header Files\SDK\CHeaders\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Widgets\XPUIGraphics.h">
+      <Filter>Header Files\SDK\CHeaders\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Widgets\XPWidgetDefs.h">
+      <Filter>Header Files\SDK\CHeaders\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Widgets\XPWidgets.h">
+      <Filter>Header Files\SDK\CHeaders\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\CHeaders\Widgets\XPWidgetUtils.h">
+      <Filter>Header Files\SDK\CHeaders\Widgets</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
