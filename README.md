@@ -19,6 +19,9 @@ This repository contains an example X-Plane plugin demonstrating the implementat
 - **XPluginStop**: Cleans up resources and unregisters callbacks before plugin unload.
 - **XPluginReceiveMessage**: Handles incoming messages from X-Plane or other plugins.
 
+### Non-Static Functions:
+Entry Point Functions: Functions like XPluginStart, XPluginStop, XPluginEnable, and XPluginDisable are typically not static. They serve as the entry points defined by the X-Plane SDK and are called externally by the simulator.
+
 ## Installation
 
 To use this plugin:
