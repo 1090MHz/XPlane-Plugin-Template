@@ -1,8 +1,6 @@
 # XPlugin
 X-Plane plugin demonstrating essential callbacks for initialization, resource management, and event handling.
 
-Certainly! Here's a template for a README file suitable for a GitHub repository of an X-Plane plugin demonstrating essential callbacks:
-
 ---
 
 # X-Plane Plugin with Essential Callbacks
