@@ -52,7 +52,6 @@ For support or questions, please open an issue in the repository or contact the 
 ## Acknowledgments
 
 - [X-Plane Developer Resources](https://developer.x-plane.com/)
-- [ImGui](https://github.com/ocornut/imgui) for GUI elements (if applicable)
 
 ## About
 
