@@ -37,6 +37,43 @@ To use this plugin:
 3. Load the plugin into X-Plane and observe its behavior.
 4. Customize and extend the plugin according to your requirements.
 
+## Example Configuration for VS Code
+
+To set up Visual Studio Code for this project, you can use the following example configuration in your `c_cpp_properties.json` file:
+
+```json
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/SDK/CHeaders/XPLM"
+            ],
+            "defines": [
+                "IBM",
+                "XPLM400",
+                "XPLM303",
+                "XPLM302",
+                "XPLM301",
+                "XPLM300",
+                "XPLM210",
+                "XPLM200",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
