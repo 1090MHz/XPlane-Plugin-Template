@@ -24,6 +24,7 @@
     <ProjectGuid>{b8faa0fc-4b65-427d-bf01-6a75b67d6ebf}</ProjectGuid>
     <RootNamespace>XPlanePluginTemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>XPlane-Plugin</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
