@@ -1,3 +1,5 @@
+#include <cstdio>
+
 #include "XPLM/XPLMPlugin.h"
 #include "XPLM/XPLMUtilities.h"  // Include X-Plane SDK Utilities header for XPLMDebugString
 
