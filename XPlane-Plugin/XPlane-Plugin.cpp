@@ -1,15 +1,15 @@
 #include <cstdio>
 
 #include "XPLM/XPLMPlugin.h"
-#include "XPLM/XPLMUtilities.h"  // Include X-Plane SDK Utilities header for XPLMDebugString
+#include "XPLM/XPLMUtilities.h" // Include X-Plane SDK Utilities header for XPLMDebugString
 
 // Plugin name, signature, and description
-const char* gPluginName = "XPlanePluginTemplate";
-const char* gPluginSignature = "github.1090MHz.xplaneplugin";
-const char* gPluginDescription = "A sample X-Plane plugin";
+const char *gPluginName = "XPlanePluginTemplate";
+const char *gPluginSignature = "github.1090MHz.xplaneplugin";
+const char *gPluginDescription = "A sample X-Plane plugin";
 
 // Callbacks
-PLUGIN_API int XPluginStart(char* outName, char* outSig, char* outDesc)
+PLUGIN_API int XPluginStart(char *outName, char *outSig, char *outDesc)
 {
     // Initialize plugin name, signature, and description
     strcpy(outName, gPluginName);
@@ -51,7 +51,7 @@ PLUGIN_API int XPluginEnable()
     return 1; // Return 1 for success, 0 for failure
 }
 
-PLUGIN_API void XPluginReceiveMessage(XPLMPluginID inFrom, int inMsg, void* inParam)
+PLUGIN_API void XPluginReceiveMessage(XPLMPluginID inFrom, int inMsg, void *inParam)
 {
     // Handle incoming messages from X-Plane or other plugins
     char msg[50];
